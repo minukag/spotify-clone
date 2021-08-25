@@ -80,6 +80,13 @@ body {
     background-color: #121212;
 }
 
+.song-category-title {
+    color: #FFFFFF;
+}
+
+.song-category-desc {
+    color: #B3B3B3
+}
 
 #nav { 
     grid-area: nav; 
@@ -90,6 +97,34 @@ body {
     justify-content: center;
 }
 
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 0 10px;
+    display: flex;
+    align-content: center;
+}
+
+.nav-links a {
+    color: inherit;
+    text-decoration: none;
+    margin: auto;
+}
+
+.nav-links a:hover {
+    transform: scale(1.05);
+}
+
+.nav-links a:active {
+    transform: scale(0.95);
+    font-weight: normal;
+    color: #B3B3B3;
+}
+
 #controls {
     grid-area: controls;
     background: #181818;
@@ -98,4 +133,11 @@ body {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+}
+.controls-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
 }
