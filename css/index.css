@@ -249,14 +249,26 @@ a {
     width: 100%;
 }
 
+.song-card-info {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
 .song-info-title {
     font-size: .9rem;
     margin: 0;
 }
 
 .song-info-desc {
+    height: 28px;
     font-size: .8rem;
     margin: 0;
+    margin-top: .5rem;
+    color: #B3B3B3;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
