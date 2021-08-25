@@ -1,4 +1,64 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("../assets/fonts/GothamMedium.woff") format('woff');
+}
+
 body {
     margin: 0;
+    font-family: "Gotham";
     box-sizing: border-box;
+}
+
+#main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 4fr 21fr;
+    grid-template-rows: 2fr 20fr 3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "menu nav"
+      "menu content"
+      "controls controls";
+}
+
+#menu { 
+    grid-area: menu; 
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+#branding {
+    width: 130px;
+    padding: 15px;
+}
+
+#branding img {
+    width: 100%;
+}
+
+#content { 
+    grid-area: content;
+    background-color: #121212;
+}
+
+
+#nav { 
+    grid-area: nav; 
+    background: #212121;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#controls {
+    grid-area: controls;
+    background: #181818;
+    border-top: 1px solid #282828;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
