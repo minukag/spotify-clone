@@ -478,12 +478,20 @@
                     <button class="track-control-btn"><i class="fas fa-sync-alt"></i></button>
                 </div>
                 <div class="track-progress">
-                    <input type="range" class="track-slider" id="slider" min=0 max=100>
+                    <input type="range" class="track-slider" min=0 max=100 value=0>
                 </div>
             </div>
             <div class="controls-item" id="misc-controls">
-                <p>P</p>
-                <p>S</p>
+                <div class="misc-control-item">
+                    <button class="track-control-btn"><i class="fas fa-list"></i></button>
+                </div>
+                <div class="misc-control-item">
+                    <button class="track-control-btn"><i class="fas fa-desktop"></i></button>
+                </div>
+                <div class="misc-control-item" id="volume-controls">
+                    <button class="track-control-btn"><i class="fas fa-volume-up"></i></button>
+                    <input type="range" class="track-slider" min=0 max=100 value=100>
+                </div>
             </div>
         </section>
     </div>

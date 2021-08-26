@@ -344,6 +344,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-items: center;
+    padding: 0 1rem;
 }
 .controls-item {
     display: flex;
@@ -374,6 +375,9 @@ a {
     color: inherit;
     height: 32px;
     width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .track-control-btn:hover {
@@ -417,4 +421,19 @@ a {
 
 .track-slider:hover::-webkit-slider-thumb {
     background-color: #FFFFFF;
+}
+
+#misc-controls {
+    justify-content: flex-end;
+}
+
+.misc-control-item {
+    color: #B3B3B3;
+}
+
+#volume-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 8rem;
 }
