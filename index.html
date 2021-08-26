@@ -467,18 +467,28 @@
 
         <section id="controls">
             <div class="controls-item" id="currently-playing">
-                <p>EINE KLEINE NACHTMUSIK BY BEETHOVEN</p>
+                <div class="current-song-img">
+                    <img src="https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en">
+                </div>
+                <div class="current-song-info">
+                    <p class="current-song-title">Eine Kleine Nachtmusik</p>
+                    <p class="current-song-author">Mozart</p>
+                </div>
+                <div class="current-song-actions">
+                    <button class="track-control-btn"><i class="far fa-heart"></i></button>
+                    <button class="track-control-btn"><i class="far fa-clone"></i></button>
+                </div>
             </div>
             <div class="controls-item" id="song-controls">
                 <div class="track-controls">
                     <button class="track-control-btn"><i class="fas fa-random"></i></button>
                     <button class="track-control-btn"><i class="fas fa-step-backward"></i></button>
-                    <button class="track-control-btn" id="track-play-pause"><i class="fas fa-play fa-xs"></i></button>
+                    <button class="track-control-btn" id="track-play-pause"><i id="track-play-pause-icon" class="fas fa-play fa-xs"></i></button>
                     <button class="track-control-btn"><i class="fas fa-step-forward"></i></button>
                     <button class="track-control-btn"><i class="fas fa-sync-alt"></i></button>
                 </div>
                 <div class="track-progress">
-                    <input type="range" class="track-slider" min=0 max=100 value=0>
+                    <input type="range" class="track-slider" id="track-progress-slider" min=0 max=100 value=0>
                 </div>
             </div>
             <div class="controls-item" id="misc-controls">
@@ -489,8 +499,8 @@
                     <button class="track-control-btn"><i class="fas fa-desktop"></i></button>
                 </div>
                 <div class="misc-control-item" id="volume-controls">
-                    <button class="track-control-btn"><i class="fas fa-volume-up"></i></button>
-                    <input type="range" class="track-slider" min=0 max=100 value=100>
+                    <button class="track-control-btn" id="volume-btn"><i id="volume-icon" class="fas fa-volume-up"></i></button>
+                    <input type="range" class="track-slider" id="volume-slider" min=0 max=100 value=100>
                 </div>
             </div>
         </section>
@@ -511,6 +521,54 @@
             e.addEventListener("mouseout", (e) => update_slider(e.target, "#B3B3B3", "#535353"))
             e.addEventListener("input", (e) => update_slider(e.target, "#1DB954", "#535353"))
         });
+    </script>
+
+    <script>//volume button
+        const update_volume_icon = ((value) => {
+            vol_icon = document.getElementById("volume-icon")
+            vol_icon_class = "fas fa-volume-"
+            vol_icon_state = vol_icon.className.replace(vol_icon_class, "")
+
+            if (value == 0) {
+                vol_icon_state = "mute"
+            } else if (value < 50) {
+                vol_icon_state = "down"
+            }
+            else {
+                vol_icon_state = "up"
+            }
+            vol_icon.className = vol_icon_class + vol_icon_state
+        })
+        document.getElementById("volume-slider").addEventListener("input", (e) => update_volume_icon(e.target.value))
+        document.getElementById("volume-btn").addEventListener("click", (e) => {
+            volume_slider = document.getElementById("volume-slider")
+            if (volume_slider.value > 0) {
+                volume_slider.value = 0
+                update_slider(volume_slider, "#B3B3B3", "#535353")
+                update_volume_icon(volume_slider.value)
+            }
+            else {
+                volume_slider.value = 100
+                update_slider(volume_slider, "#B3B3B3", "#535353")
+                update_volume_icon(volume_slider.value)
+            }
+        })
+    </script>
+
+    <script>//play pause button
+        const update_play_pause_icon = (() => {
+            p_icon = document.getElementById("track-play-pause-icon")
+            p_icon_state = p_icon.className
+            if (p_icon_state == "fas fa-play fa-xs") {
+                p_icon_state = "fas fa-pause fa-xs"
+            } else {
+                p_icon_state = "fas fa-play fa-xs"
+            }
+            p_icon.className = p_icon_state
+        })
+        document.getElementById("track-play-pause").addEventListener("click", (e) => {
+            update_play_pause_icon()
+        })
     </script>
 </body>
 </html>

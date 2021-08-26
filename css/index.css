@@ -109,7 +109,7 @@ a {
     background: #070707;
     color: #FFFFFF;
     padding: .3rem 0;
-    padding-right: 2rem;
+    padding-right: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -206,7 +206,7 @@ a {
     /*grid-area: content;*/
     background-color: #121212;
     color: #FFFFFF;
-    padding: 24px 32px;
+    padding: 1.5rem 1rem 1.5rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -351,12 +351,15 @@ a {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    flex: 1;
+    flex: 1 0;
+    overflow: hidden;
 }
 
 #song-controls {
     flex-direction: column;
     align-items: center;
+    gap: .5rem;
+    padding: .5rem;
 }
 
 .track-controls {
@@ -398,6 +401,10 @@ a {
     transform: scale(1.05);
 }
 
+#track-play-pause:active {
+    transform: scale(0.95);
+}
+
 .track-progress {
     width: 100%;
 }
@@ -419,6 +426,10 @@ a {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 50%);
 }
 
+.track-slider:hover {
+    cursor: pointer;
+}
+
 .track-slider:hover::-webkit-slider-thumb {
     background-color: #FFFFFF;
 }
@@ -436,4 +447,56 @@ a {
     flex-direction: row;
     align-items: center;
     width: 8rem;
+}
+
+#currently-playing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #B3B3B3;
+}
+
+.current-song-img {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-song-img img {
+    width: 100%;
+}
+
+.current-song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 1rem;
+    gap: .25rem;
+    max-width: 60%;
+}
+
+.current-song-title {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.current-song-author {
+    margin: 0;
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.current-song-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
