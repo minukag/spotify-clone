@@ -457,7 +457,7 @@ a {
     color: #B3B3B3;
 }
 
-.current-song-img {
+#current-song-img {
     width: 56px;
     height: 56px;
     display: flex;
@@ -465,7 +465,7 @@ a {
     justify-content: center;
 }
 
-.current-song-img img {
+#current-song-img img {
     width: 100%;
 }
 
@@ -478,7 +478,7 @@ a {
     max-width: 60%;
 }
 
-.current-song-title {
+#current-song-title {
     color: #FFFFFF;
     margin: 0;
     font-size: 14px;
@@ -487,7 +487,7 @@ a {
     white-space: nowrap;
 }
 
-.current-song-author {
+#current-song-author {
     margin: 0;
     font-size: 10px;
     overflow: hidden;

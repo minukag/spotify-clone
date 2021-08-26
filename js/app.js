@@ -4,7 +4,7 @@ let content = ""
 
 const song_card = ((songTitle, songDesc, songImg) => {
     return (`   
-    <div class="song-card">
+    <div class="song-card" onclick="change_current_track('${songTitle}', '${songDesc}', '${songImg}')">
         <div class="song-card-img">
             <img src="${songImg}">
             <div class="song-card-playbtn-container">

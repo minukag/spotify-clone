@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <script src="js/app.js" type="text/javascript" defer></script>
+    <script src="js/nowplaying.js" type="text/javascript" defer></script>
 </head>
 <body>
     <div id="main">
@@ -100,13 +101,13 @@
         </div>
 
         <section id="controls">
-            <div class="controls-item" id="currently-playing">
-                <div class="current-song-img">
-                    <img src="https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en">
+            <div class="controls-item" id="currently-playing" style="visibility: hidden;">
+                <div id="current-song-img">
+                    <img src="">
                 </div>
                 <div class="current-song-info">
-                    <p class="current-song-title">Eine Kleine Nachtmusik</p>
-                    <p class="current-song-author">Mozart</p>
+                    <p id="current-song-title"></p>
+                    <p id="current-song-author"></p>
                 </div>
                 <div class="current-song-actions">
                     <button class="track-control-btn"><i class="far fa-heart"></i></button>
