@@ -466,19 +466,43 @@
         </div>
 
         <section id="controls">
-            <div class="controls-item" id="left-currentplaying">
+            <div class="controls-item" id="currently-playing">
                 <p>EINE KLEINE NACHTMUSIK BY BEETHOVEN</p>
             </div>
-            <div class="controls-item" id="center-controls">
-                <p><<</p>
-                <p>||</p>
-                <p>>></p>
+            <div class="controls-item" id="song-controls">
+                <div class="track-controls">
+                    <button class="track-control-btn"><i class="fas fa-random"></i></button>
+                    <button class="track-control-btn"><i class="fas fa-step-backward"></i></button>
+                    <button class="track-control-btn" id="track-play-pause"><i class="fas fa-play fa-xs"></i></button>
+                    <button class="track-control-btn"><i class="fas fa-step-forward"></i></button>
+                    <button class="track-control-btn"><i class="fas fa-sync-alt"></i></button>
+                </div>
+                <div class="track-progress">
+                    <input type="range" class="track-slider" id="slider" min=0 max=100>
+                </div>
             </div>
-            <div class="controls-item" id="right-controls">
+            <div class="controls-item" id="misc-controls">
                 <p>P</p>
                 <p>S</p>
             </div>
         </section>
     </div>
+
+    <script> //change slider progress bar colour
+        //change slider bar colour
+        const update_slider = ((slider, col1, col2) => {
+            slider.style.background = `linear-gradient(90deg, ${col1} 0%, ${col1} ${slider.value}%,  ${col2} ${slider.value}%)`
+        })
+        //initial position of the slider bar
+        Array.from(document.getElementsByClassName("track-slider")).forEach(e => {
+            update_slider(e, "#B3B3B3", "#535353")
+        });
+        //add event listeners to sliders
+        Array.from(document.getElementsByClassName("track-slider")).forEach(e => {
+            e.addEventListener("mouseover", (e) => update_slider(e.target, "#1DB954", "#535353"))
+            e.addEventListener("mouseout", (e) => update_slider(e.target, "#B3B3B3", "#535353"))
+            e.addEventListener("input", (e) => update_slider(e.target, "#1DB954", "#535353"))
+        });
+    </script>
 </body>
 </html>
