@@ -5,38 +5,38 @@
         "cat-desc": "Get better recommendations the more you listen.",
         "song-list": 
         [
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"}
+          {"song-title": "Sweet Dreams", "song-desc": "Alan Walker", "song-img": "https://i.scdn.co/image/ab67616d00001e02f0c6d249ecab24cddb7ee9c4"},
+          {"song-title": "Wonder", "song-desc": "Shawn Mendes", "song-img": "https://i.scdn.co/image/ab67616d00001e0237a5a19e52f8260b3b158e55"},
+          {"song-title": "Happier", "song-desc": "Marhmellow", "song-img": "https://i.scdn.co/image/ab67616d00001e0204bfd5a5fd5aa6ca648f66aa"},
+          {"song-title": "Faded", "song-desc": "Alan Walker", "song-img": "https://i.scdn.co/image/ab67616d00001e02c4d00cac55ae1b4598c9bc90"},
+          {"song-title": "SUN GOES DOWN", "song-desc": "Lil Nas X", "song-img": "https://i.scdn.co/image/ab67616d00001e026ef577667129d9351056d6d9"},
+          {"song-title": "Justice", "song-desc": "Justin Bieber", "song-img": "https://i.scdn.co/image/ab67616d00001e02e6f407c7f3a0ec98845e4431"}
           ]
       },
       {
-        "cat-title": "Cat Title",
-        "cat-desc": "Description Here",
+        "cat-title": "Popular new releases",
+        "cat-desc": "The best new music this week.",
         "song-list": 
         [
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"}
+          {"song-title": "Butter", "song-desc": "BTS", "song-img": "https://i.scdn.co/image/ab67616d00001e02ed656680374294d5217193fa"},
+          {"song-title": "SOUR", "song-desc": "Olivia Rodrigo", "song-img": "https://i.scdn.co/image/ab67616d00001e02bdf5ed83a765fd10a97f08f1"},
+          {"song-title": "Scaled And Icy", "song-desc": "Twenty One Pilots", "song-img": "https://i.scdn.co/image/ab67616d00001e0220b467550945fd123e00f0a5"},
+          {"song-title": "Leave Before You Love Me", "song-desc": "Marshmellow, Jonas Brothers", "song-img": "https://i.scdn.co/image/ab67616d00001e02ae40468931087f78919b86ce"},
+          {"song-title": "Ignite", "song-desc": "Alan Walker", "song-img": "https://i.scdn.co/image/ab67616d00001e02eaee7835ad1cd0c435edd7cf"},
+          {"song-title": "See You Again (feat. Charlie Puth)", "song-desc": "Wiz Khalifa, Charlie Puth", "song-img": "https://i.scdn.co/image/ab67616d00001e024e5df11b17b2727da2b718d8"}
           ]
       },
       {
-        "cat-title": "Cat Title",
-        "cat-desc": "Description Here",
+        "cat-title": "Happy",
+        "cat-desc": "Music that makes you feel good.",
         "song-list": 
         [
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
-          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"}
+          {"song-title": "Believer", "song-desc": "Imagine Dragons", "song-img": "https://i.scdn.co/image/ab67616d00001e025e1db60a6f9214c247061d86"},
+          {"song-title": "Thunder", "song-desc": "Imagine Dragons", "song-img": "https://i.scdn.co/image/ab67616d00001e02088820a96b4a273ae53da40a"},
+          {"song-title": "Bad Habits", "song-desc": "Ed Sheeran", "song-img": "https://i.scdn.co/image/ab67616d00001e02a5cf426490a6e1c1bde53fb1"},
+          {"song-title": "Never Say Never", "song-desc": "Justin Bieber", "song-img": "https://i.scdn.co/image/ab67616d00001e0249130b16d4190db1d6822e59"},
+          {"song-title": "Wonder", "song-desc": "Shawn Mendes", "song-img": "https://i.scdn.co/image/ab67616d00001e0237a5a19e52f8260b3b158e55"},
+          {"song-title": "Faded", "song-desc": "Alan Walker", "song-img": "https://i.scdn.co/image/ab67616d00001e02c4d00cac55ae1b4598c9bc90"}
           ]
       }
       ]
