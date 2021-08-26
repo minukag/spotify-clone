@@ -1,0 +1,43 @@
+{
+    "content": [
+      {
+        "cat-title": "Made for you",
+        "cat-desc": "Get better recommendations the more you listen.",
+        "song-list": 
+        [
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"}
+          ]
+      },
+      {
+        "cat-title": "Cat Title",
+        "cat-desc": "Description Here",
+        "song-list": 
+        [
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"}
+          ]
+      },
+      {
+        "cat-title": "Cat Title",
+        "cat-desc": "Description Here",
+        "song-list": 
+        [
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"},
+          {"song-title": "Song Title", "song-desc": "Artist", "song-img": "https://seeded-session-images.scdn.co/v1/img/artist/1uNFoZAHBGtllmzznpCI3s/en"}
+          ]
+      }
+      ]
+  }
